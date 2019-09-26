@@ -1,8 +1,8 @@
 package com.heap.sort;
 
-public class Sorter {
+class Sorter {
 
-    public void heapSort(int[] numeros) {
+    void heapSort(int[] numeros) {
         for (int i = numeros.length / 2; i >= 0; --i) {
             heapifyDown(numeros, i, numeros.length);
         }
